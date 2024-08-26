@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: #e1ecec;
+}
+.container{
+    background-color: #ffffff;
+    width: 50%;
+    height: 85vh;
+    margin: 5% auto;
+    border-radius: 50px;
+}
+.container img{
+    width: 100px;
+}
+.header{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+}
+.header h1{
+    margin-top: -30px;
+    margin-left: 30px;
+}
+.header p{
+    margin-left: 30px;
+}
+#details{
+    display: block;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 80%;
+    font-size: .9rem;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-around;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-around;
+    /* margin-left: -50px; */
+}
+#phone{
+    background: url(ng-flag.png); 
+    background-size: 30px 20px; 
+    background-position: left center; 
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-around;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%; 
+    justify-content: space-around;   
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%; 
+    justify-content: space-around;   
+}
+.input{
+    border-radius: 30px;
+}
+input{
+    border-radius: 5px;
+    border: 1px ridge #cdcaca;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    box-shadow: rgba(111, 111, 111, 0.1) 0px 2px 4px;
+}
+#nationality{
+    border-radius: 5px;
+    border: 1px ridge #cdcaca;
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    background: url(ng-flag.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 30px 20px;
+    background-position: left center;
+}
+select{
+    border-radius: 5px;
+    border: 1px ridge #cdcaca;
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+}
+#can{
+    padding-left: -10px;
+    text-align: center;
+}
+#can:hover{
+    background-color: #4931a8;
+    color: white;
+}
+#sub{
+    padding-left: -10px;
+    text-align: center;
+    background-color: #4931a8;
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
+footer a{
+    text-decoration: none;
+}
+@media (max-width: 425px){
+    .container{
+        width: 80%;
+        height: 98%;
+        border-radius: 40px;
+    }
+    .one{
+        display: block;
+    }
+    .two{
+        display: block;
+    }
+    .three{
+        display: block;
+    }
+    .four{
+        display: block;
+    }
+    .five{
+        display: block;
+    }
+    .input{
+        margin-top: 30px;
+    }
+    #select{
+        margin-top: 30px;
+    }
+    #sub{
+        margin-top: 30px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+}
